@@ -36,7 +36,7 @@ DupeReal.MouseButton1Down:connect(function()
 	local Section = Tab:NewSection("Buy NFT (With Game Money!)")
 	Section:NewButton("Buy Ben", "Buy Ben", function()
 		local args = {
-			[1] = "Trading ben"
+			[1] = "Trading Ben"
 		}
 
 		game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
